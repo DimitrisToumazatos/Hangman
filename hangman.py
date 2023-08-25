@@ -12,7 +12,7 @@ file.close()
 
 givenletters = []
 foundletters = []
-lives = 5
+lives = 6
 wordToFind = words[0]
 abc = ["a", "b", "c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 
@@ -21,10 +21,12 @@ abc = ["a", "b", "c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r"
 def makeMan():          # draw the hangman
     global lives
 
-    if lives == 5:
+    if lives == 6:
         return print("____\n|  |\n|\n|\n|\n|\n|\n")
-    if lives == 4:
+    if lives == 5:
         return print("____\n|  |\n|  O\n|\n|\n|\n|\n")
+    if lives == 4:
+        return print("____\n|  |\n|  O\n|  |\n|  |\n|     \n|\n")
     if lives == 3:
         return print("____\n|  |\n|  O\n| \|\n|  |\n|     \n|\n")
     if lives == 2:
@@ -51,8 +53,13 @@ def stage():                # play each stage (round)
 
     if lives == 0:                  # check if you the player is out of lives
         return endGame(0)
-        
-    
+
+    if len(givenletters) > 0:
+        print("The letters you have already given are: ", end='')
+        for i in givenletters:    
+            print(i, end=', ')
+        print("\n")
+
     lettersMissing = 0              # print the word and the letters that have been found
     for i in wordToFind:
         if i in foundletters:
@@ -94,7 +101,7 @@ def newGame():      # set a new game
     wordToFind = random.choice(words)            # the word the player must find
     foundletters = [wordToFind[0]]               # letters that have been given by the player and exist in the word he\she must find
     givenletters = []                            # letters already given by the player
-    lives = 5
+    lives = 6
     print("New Game\n")
 
 def endGame(result):                 # end the game
