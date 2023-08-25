@@ -15,8 +15,8 @@ or stut down the program.
 3. Run "py hangman.py" from your command line from the file's parent directory to complile the program.
 4. Enjoy!
 
-![start](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/9f76012e-876c-49e8-8c7e-2093d1c02f81)
-![1](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/6155ed2d-a52d-4b10-818f-04680ee30113)
-![2](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/9a026605-3efd-41ef-869b-7b4ab5ddb4ce)
-![3](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/3c427198-897b-4b79-b9da-4485b2503309)
-![4](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/0b196bec-3343-40e6-9a6c-86d0450665f5)
+![start](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/ed968429-31c3-483e-894d-1e4cb8182731)
+![1](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/4865ab3a-ef68-4016-9094-548acf53c72c)
+![2](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/7b0906b3-5540-401a-afc0-676f24c48730)
+![3](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/90b24891-e985-419b-854b-f5fae5ada2c9)
+![4](https://github.com/DimitrisToumazatos/Hangman/assets/90845305/ee466d69-bec9-4593-a8aa-bb1ad1b7b83d)
