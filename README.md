@@ -1,4 +1,4 @@
-# Thiseas
+# Hangman
 
 # Author: <a href="https://github.com/DimitrisToumazatos" title="Dimitris Toumazatos">Dimitris Toumazatos</a>
 
